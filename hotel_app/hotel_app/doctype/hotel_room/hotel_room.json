@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:room_name",
+ "beta": 1,
+ "creation": "2017-12-08 12:33:56.320420",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "room_item",
+  "room_name",
+  "room_no",
+  "hotel_room_type",
+  "column_break_v1fyx",
+  "capacity",
+  "extra_bed_capacity",
+  "has_amenities",
+  "section_break_lqh0x",
+  "room_amenity"
+ ],
+ "fields": [
+  {
+   "fieldname": "hotel_room_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Hotel Room Type",
+   "options": "Hotel Room Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "extra_bed_capacity",
+   "fieldtype": "Int",
+   "label": "Extra Bed Capacity"
+  },
+  {
+   "fieldname": "room_name",
+   "fieldtype": "Data",
+   "label": "Room Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "room_no",
+   "fieldtype": "Int",
+   "label": "Room No"
+  },
+  {
+   "fieldname": "room_amenity",
+   "fieldtype": "Table",
+   "label": "Room Amenity",
+   "options": "Hotel Room Amenity"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_amenities",
+   "fieldtype": "Check",
+   "label": "Has Amenities"
+  },
+  {
+   "fieldname": "column_break_v1fyx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_lqh0x",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "room_item",
+   "fieldtype": "Link",
+   "label": "Room Item",
+   "options": "Item",
+   "reqd": 1
+  }
+ ],
+ "links": [],
+ "modified": "2023-08-24 05:48:00.345102",
+ "modified_by": "Administrator",
+ "module": "Hotel App",
+ "name": "Hotel Room",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Hotel Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Hospitality",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
