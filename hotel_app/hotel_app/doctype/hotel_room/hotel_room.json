@@ -15,6 +15,7 @@
   "room_no",
   "hotel_room_type",
   "column_break_v1fyx",
+  "button",
   "capacity",
   "extra_bed_capacity",
   "has_amenities",
@@ -78,10 +79,15 @@
    "label": "Room Item",
    "options": "Item",
    "reqd": 1
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
   }
  ],
  "links": [],
- "modified": "2023-08-24 05:48:00.345102",
+ "modified": "2023-08-26 13:25:38.305961",
  "modified_by": "Administrator",
  "module": "Hotel App",
  "name": "Hotel Room",
