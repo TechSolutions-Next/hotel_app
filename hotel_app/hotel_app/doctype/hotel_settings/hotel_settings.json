@@ -34,7 +34,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2023-08-22 19:32:37.475892",
+ "modified": "2023-09-06 23:47:57.195340",
  "modified_by": "Administrator",
  "module": "Hotel App",
  "name": "Hotel Settings",
@@ -61,7 +61,6 @@
    "write": 1
   }
  ],
- "restrict_to_domain": "Hospitality",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

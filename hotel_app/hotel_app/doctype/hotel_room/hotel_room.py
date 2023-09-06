@@ -5,6 +5,7 @@ import frappe
 from frappe.model.document import Document
 
 class HotelRoom(Document):
+	pass
     # Events: 
     # -----------
     # validate(self): 
@@ -17,11 +18,3 @@ class HotelRoom(Document):
 	# on_cancel(self):
 	# on_trash(self):
 	# ----------------------------------------
-
-	def validate(self):
-		# frappe.msgprint("Helloooo5278272ooooooo")
-		doc = frappe.get_doc("Item", self.room_item)
-		doc.item_group = "Services"
-		doc.db_set("is_stock_item", 0)
-		doc.save()
-		doc.notify_update()

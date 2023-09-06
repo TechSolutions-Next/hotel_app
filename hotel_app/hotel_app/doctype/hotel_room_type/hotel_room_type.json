@@ -39,7 +39,7 @@
   }
  ],
  "links": [],
- "modified": "2023-08-22 19:32:35.686351",
+ "modified": "2023-09-06 23:48:00.569542",
  "modified_by": "Administrator",
  "module": "Hotel App",
  "name": "Hotel Room Type",
@@ -71,7 +71,6 @@
   }
  ],
  "quick_entry": 1,
- "restrict_to_domain": "Hospitality",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
